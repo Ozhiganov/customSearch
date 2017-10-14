@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <main id="main" class="container">
+        <div class="search">
+            <input id="searchInput" class="search__input" type="text">
+            <input id="searchBtn" class="search__btn" type="button" value="Search">
+        </div>
+        <input id='imageCheck' type='checkbox'/>
+        <label for='imageCheck'>Images</label>
+        <button id='prevPage' type='submit'>Prev</button>
+        <button id='nextPage' type='submit'>Next</button>
+        <div class="output">
+            <div id="imageBlock" class="output__block output__block--images">
+                <h2 class="output__heading">Image result</h2>
+                <ul id="outputGrid" class="grid">
+                    <!--Content generated in js-->
+                </ul>
+            </div>
+            <div id="sitesBlock" class="output__block output__block--sites">
+                <h2 class="output__heading">Web result</h2>
+                <ul id="outputList" class="list">
+                    <!--Content generated in js-->
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
