@@ -3,6 +3,8 @@
 window.onload = function () {
     var searchBtn   = document.getElementById("searchBtn"),
         searchInput = document.getElementById("searchInput"),
+        nextImgPage = document.getElementById("nextImgPage"),
+        prevImgPage = document.getElementById("prevImgPage"),
         nextPage = document.getElementById("nextPage"),
         prevPage = document.getElementById("prevPage"),
         requestImg = new Request();
